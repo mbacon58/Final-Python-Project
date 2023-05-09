@@ -93,8 +93,8 @@ if page == "Introduction/Project Overview":
     header1 = '<div style="text-align:center;"><p style="font-family:Daytona; color:Black; font-size: 30px;">Introduction/Project Overview</p></div>'
     st.markdown(header1, unsafe_allow_html=True)
 
-    with st.spinner('One moment...'):
-        time.sleep(1)
+    #with st.spinner('One moment...'):
+     #   time.sleep(1)
 
     from PIL import Image
     input_image = Image.open("C:/Users/mbhoc/OneDrive - Bentley University/Documents/CS 230/stadium1.jpg")
